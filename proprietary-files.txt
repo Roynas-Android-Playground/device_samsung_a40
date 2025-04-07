@@ -1,8 +1,9 @@
-# All blobs below are extracted from samsung/a40skt/a40:11/RP1A.200720.012/A405SKSU5CVB1:user/release-keys, unless otherwise stated.
+# All blobs below are extracted from samsung/a40xx/a40:11/RP1A.200720.012/A405FNXXU4CWC3:user/release-keys, unless otherwise stated.
 
 # Audio
 vendor/lib/hw/audio.primary.exynos7904.so
 vendor/lib/vndk/libaudioroute.so
+vendor/lib/lib_SamsungRec_07010.so
 
 # Dap
 vendor/etc/dolby/dax-default.xml
@@ -36,14 +37,14 @@ vendor/firmware/setfile_2x5.bin
 vendor/firmware/setfile_5e9.bin
 
 # NFC firmware
-vendor/etc/nfc/sec_s3nrn81_rfreg.bin
-vendor/firmware/nfc/sec_s3nrn81_firmware.bin
+vendor/etc/nfc/sec_s3nrn82_rfreg.bin
+vendor/firmware/nfc/sec_s3nrn82_firmware.bin
+
+# NFC config
+vendor/etc/libnfc-sec-vendor.conf
 
 # Sensors
-vendor/etc/yas_set.cfg
 vendor/lib64/hw/sensors.universal7904.so
-vendor/lib64/libsensorlistener.so
-vendor/lib64/libyasalgo.so
 
 # Fingerprint
 vendor/lib64/libbauthserver.so
@@ -62,8 +63,8 @@ vendor/lib/hw/thermal.universal7904.so
 vendor/lib64/hw/thermal.universal7904.so
 
 # Memtrack
-vendor/lib/hw/memtrack.universal7904.so
-vendor/lib64/hw/memtrack.universal7904.so
+vendor/lib/hw/memtrack.exynos7904.so
+vendor/lib64/hw/memtrack.exynos7904.so
 
 # HWC
 vendor/lib/hw/hwcomposer.exynos7904.so
