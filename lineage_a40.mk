@@ -20,6 +20,8 @@ PRODUCT_MODEL := SM-A405F
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 
+PRODUCT_GMS_CLIENTID_BASE := android-samsung
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="a40xx-user 11 RP1A.200720.012 A405FNXXU4CWC3 release-keys" \
     BuildFingerprint=samsung/a40xx/a40:11/RP1A.200720.012/A405FNXXU4CWC3:user/release-keys
